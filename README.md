@@ -20,6 +20,8 @@ Streaming data is ingested via **Eventstream** and analyzed in near real time us
 
 ## 🏗️ Architecture
 
+![Architecture Diagram](images/FabricHybridPipeline.drawio.png)
+
 ### Batch Processing Flow
 
 ```
