@@ -4,6 +4,8 @@ FabricPulse is an end-to-end data engineering project built using **Microsoft Fa
 
 The project emphasizes **data ingestion, modeling, orchestration, and real-time analytics**, rather than BI dashboarding, to reflect real-world data engineering responsibilities.
 
+
+*Note* : Since Fabric free trial Doesn't allow git integration this repo includes notebooks and images from project to showcase the work done
 ---
 
 ## 🧠 Project Overview
