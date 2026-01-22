@@ -6,6 +6,7 @@ The project emphasizes **data ingestion, modeling, orchestration, and real-time 
 
 
 *Note* : Since Fabric free trial Doesn't allow git integration this repo includes notebooks and images from project to showcase the work done
+
 ---
 
 ## 🧠 Project Overview
