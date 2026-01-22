@@ -24,6 +24,8 @@ Streaming data is ingested via **Eventstream** and analyzed in near real time us
 
 ### Batch Processing Flow
 
+![Pipeline Diagram](images/data_pipeline.png)
+
 ```
 CSV Files
 ↓
@@ -34,8 +36,10 @@ Silver Layer (Data Cleaning & Validation)
 Gold Layer (Dimensional & Analytical Tables)
 ```
 
-
 ### Real-Time Processing Flow
+
+![Eventstream](images/eventstream.png)
+
 
 ```
 Event Generator
@@ -51,12 +55,14 @@ Eventhouse Lakehouse
 
 ## ⚙️ Tech Stack
 
+![Tech Stack Lineage Graph](images/lineage_graph.png)
+
 ### Platform
 - Microsoft Fabric
 - Fabric Lakehouse
 - Fabric Eventstream
 - Eventhouse (KQL Database)
-  - Monitoring Hub
+- Monitoring Hub
 
 ### Processing & Modeling
 - Apache Spark (PySpark)
@@ -71,6 +77,8 @@ Eventhouse Lakehouse
 ---
 
 ## 🧱 Data Modeling
+
+![Dimensional Model](images/dim_model.png)
 
 ### Gold Layer
 
@@ -91,6 +99,9 @@ Surrogate keys are used for all dimensions to:
 ---
 
 ## ⚡ Real-Time Analytics
+
+![Real-time Dashbaord](images/real-time_dashboard.png)
+
 
 - Transaction events are generated and ingested via **Eventstream**
 - Events are routed to:
